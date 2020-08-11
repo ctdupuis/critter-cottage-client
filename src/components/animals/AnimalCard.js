@@ -13,7 +13,7 @@ const AnimalCard = ({ animal }) => {
 
     return(
             <Card style={{ width: '18rem'}} margin={25} border={75}>             
-                    <Card.Img variant="top" width={300} height={300} src={`https://critter-cottage-api.herokuapp.com/${image_url}`} />               
+                    <Card.Img variant="top" width={300} height={300} src={`https://critter-cottage-api.herokuapp.com${image_url}`} />               
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Subtitle>{breed}</Card.Subtitle><Card.Subtitle align={'right'}>{genderSym[gender]}</Card.Subtitle>
