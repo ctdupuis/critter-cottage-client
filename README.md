@@ -30,6 +30,9 @@ This repo contains the client for Critter Cottage. It consumes the [Critter Cott
 
 ## Local Installation
 
+**You will need to have the API installed for this to run correctly**
+
 - In your terminal, run `git clone git@github.com:ctdupuis/critter-cottage-client.git`
 - Run `npm install`
 - Run `npm start`
+- Make sure the API is running, then navigate to [localhost:3000](http://localhost:3000).
